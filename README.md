@@ -1,0 +1,1 @@
+<img src="https://raw.githubusercontent.com/nathantannar4/TypingIndicator/master/banner.png">

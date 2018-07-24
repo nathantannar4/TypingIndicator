@@ -8,10 +8,6 @@ This is a working prototype of an **iMessage** like typing indicator I am workin
 
 Alternativly it can be used in my other project, [InputBarAccessoryView](https://github.com/nathantannar4/InputBarAccessoryView) as a typing indicator by placing it in the `topStackView`
 
-## Installation
-
-Add `TypingIndicator.swift` to your project
-
 ## Preview
 
 <video style="width:100%" controls>

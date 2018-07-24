@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38BAD86D2107CD2900287BF9 /* TypingBubbleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BAD86C2107CD2900287BF9 /* TypingBubbleCell.swift */; };
+		38BAD86F2107CD3B00287BF9 /* BubbleCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BAD86E2107CD3B00287BF9 /* BubbleCircle.swift */; };
+		38BAD8722107CD4400287BF9 /* TypingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BAD8702107CD4300287BF9 /* TypingIndicator.swift */; };
+		38BAD8732107CD4400287BF9 /* TypingBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BAD8712107CD4400287BF9 /* TypingBubble.swift */; };
 		38EE237020EC16D80014ABC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EE236F20EC16D80014ABC8 /* AppDelegate.swift */; };
 		38EE237220EC16D80014ABC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EE237120EC16D80014ABC8 /* ViewController.swift */; };
 		38EE237520EC16D80014ABC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38EE237320EC16D80014ABC8 /* Main.storyboard */; };
 		38EE237720EC16D90014ABC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38EE237620EC16D90014ABC8 /* Assets.xcassets */; };
 		38EE237A20EC16D90014ABC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38EE237820EC16D90014ABC8 /* LaunchScreen.storyboard */; };
-		38EE238220EC16E10014ABC8 /* TypingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EE238120EC16E10014ABC8 /* TypingIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38BAD86C2107CD2900287BF9 /* TypingBubbleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypingBubbleCell.swift; sourceTree = "<group>"; };
+		38BAD86E2107CD3B00287BF9 /* BubbleCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleCircle.swift; sourceTree = "<group>"; };
+		38BAD8702107CD4300287BF9 /* TypingIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TypingIndicator.swift; path = ../../MessageKit/Sources/Views/TypingIndicator.swift; sourceTree = "<group>"; };
+		38BAD8712107CD4400287BF9 /* TypingBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypingBubble.swift; sourceTree = "<group>"; };
 		38EE236C20EC16D80014ABC8 /* TypingIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypingIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38EE236F20EC16D80014ABC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38EE237120EC16D80014ABC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +30,6 @@
 		38EE237620EC16D90014ABC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38EE237920EC16D90014ABC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38EE237B20EC16D90014ABC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38EE238120EC16E10014ABC8 /* TypingIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypingIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				38EE236F20EC16D80014ABC8 /* AppDelegate.swift */,
-				38EE238120EC16E10014ABC8 /* TypingIndicator.swift */,
+				38BAD86E2107CD3B00287BF9 /* BubbleCircle.swift */,
+				38BAD8702107CD4300287BF9 /* TypingIndicator.swift */,
+				38BAD8712107CD4400287BF9 /* TypingBubble.swift */,
+				38BAD86C2107CD2900287BF9 /* TypingBubbleCell.swift */,
 				38EE237120EC16D80014ABC8 /* ViewController.swift */,
 				38EE237320EC16D80014ABC8 /* Main.storyboard */,
 				38EE237620EC16D90014ABC8 /* Assets.xcassets */,
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38EE238220EC16E10014ABC8 /* TypingIndicator.swift in Sources */,
+				38BAD8722107CD4400287BF9 /* TypingIndicator.swift in Sources */,
+				38BAD86D2107CD2900287BF9 /* TypingBubbleCell.swift in Sources */,
+				38BAD86F2107CD3B00287BF9 /* BubbleCircle.swift in Sources */,
 				38EE237220EC16D80014ABC8 /* ViewController.swift in Sources */,
+				38BAD8732107CD4400287BF9 /* TypingBubble.swift in Sources */,
 				38EE237020EC16D80014ABC8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,5 +12,5 @@ Alternativly it can be used in my other project, [InputBarAccessoryView](https:/
 
 <video style="width:100%" controls>
   <source src="https://raw.githubusercontent.com/nathantannar4/TypingIndicator/master/preview.mp4" type="video/mp4">
-Your browser does not support the video tag.
+  <a href="https://raw.githubusercontent.com/nathantannar4/TypingIndicator/master/preview.mp4">Watch Video</a>
 </video>

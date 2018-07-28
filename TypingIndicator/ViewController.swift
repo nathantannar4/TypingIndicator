@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         return .lightContent
     }
     
-    let typingBubble = TypingBubble(frame: CGRect(origin: .zero, size: CGSize(width: 100, height: 60)))
+    let typingBubble = TypingBubble(frame: CGRect(origin: .zero, size: CGSize(width: 80, height: 50)))
     
     let button = UIButton(frame: CGRect(x: 0, y: 0, width: 200, height: 30))
     
